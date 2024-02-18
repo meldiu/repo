@@ -1,0 +1,81 @@
+:root {
+    /* Font-size */
+    --f-s-micro: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
+    /* 10.24px */
+    --f-s-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    /* 12.8px */
+    --f-s-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    /* 16px */
+    --f-s-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    /* 20px */
+    --f-s-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    /* 24.96px */
+    --f-s-xl: clamp(1.95rem, 1.57vw + 1.56rem, 2.81rem);
+    /* 31.2px */
+    --f-s-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    /* 39.04px */
+    --f-s-xxxl: clamp(3.05rem, 3.55vw + 2.17rem, 5rem);
+    /* 48.64px */
+
+    /* Font-weight */
+    --f-regular: 400;
+    --f-bold: 700;
+
+    /* Font-family */
+    --f-title: "Bricolage Grotesque", sans-serif;
+    --f-primary: "Rethink Sans", sans-serif;
+
+    /* Colors */
+    --c-darkblue: #060f23;
+    --c-linkwater: #f2f6fc;
+    --c-cadetblue: #a7a9be;
+    --c-tropicalblue: #bacbfa;
+
+    /* Border */
+    --b-main: 2px solid color-mix(in srgb, var(--c-cadetblue) 10%, transparent);
+
+    /* Border radius */
+    --br-sm: 0.375rem;
+    --br-md: 0.75rem;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: background var(--c-darkblue) color-mix(in srgb, var(--c-cadetblue) 10%, transparent);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--c-darkblue);
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--c-cadetblue) 10%, transparent);
+    border-radius: 8px;
+}
+
+/* html {} */
+
+body {
+    font-family: var(--f-primary);
+    color: var(--c-linkwater);
+    font-size: var(--f-s-base);
+
+    background: var(--c-darkblue);
+    background: rgb(19, 35, 71);
+    /* https://cssgradient.io/ => 0 / 55 / 100 => #132347 / #060f23 / #000000 */
+    background: -moz-radial-gradient(circle, rgba(19, 35, 71, 1) 0%, rgba(6, 15, 35, 1) 44%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(19, 35, 71, 1) 0%, rgba(6, 15, 35, 1) 44%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(19, 35, 71, 1) 0%, rgba(6, 15, 35, 1) 44%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#132347", endColorstr="#000000", GradientType=1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
