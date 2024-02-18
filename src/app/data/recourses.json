@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1",
+    "title": "Fluid Type Scale Calculator",
+    "description": "Generate font size variables for a fluid type scale with CSS clamp. Grab the output CSS and drop it into any design system.",
+    "category": ["Development", "Fluid type scale", "Type scale", "CSS clamp"],
+    "logo": "/logos/fluid-type-scale.png",
+    "url": "https://www.fluid-type-scale.com/"
+  },
+  {
+    "id": "2",
+    "title": "Lucide",
+    "description": "Beautiful & consistent icon toolkit made by the community.",
+    "category": ["Development", "Icons"],
+    "logo": "/logos/lucide.png",
+    "url": "https://lucide.dev/"
+  },
+  {
+    "id": "3",
+    "title": "Squosh",
+    "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+    "category": ["Development", "Image optimizer"],
+    "logo": "/logos/squoosh.png",
+    "url": "https://squoosh.app/"
+  },
+  {
+    "id": "4",
+    "title": "svgl",
+    "description": "A beautiful library with SVG logos.",
+    "category": ["Development", "SVG", "Icons"],
+    "logo": "/logos/svgl.png",
+    "url": "https://svgl.app/"
+  },
+  {
+    "id": "5",
+    "title": "Color & Contrast",
+    "description": "Color & Contrast is a comprehensive guide to color for user interface designers.",
+    "category": ["Design", "Colors"],
+
+    "logo": "/logos/color-and-contrast.png",
+    "url": "https://colorandcontrast.com/#/"
+  },
+  {
+    "id": "6",
+    "title": "Mr. Mockup",
+    "description": "High Quality PSD Mockups and Graphic Design Freebies to Showcase Your Work Like a Pro! We build premium and free Mockup templates for profesional designers.",
+    "category": ["Design", "Mockups"],
+    "logo": "/logos/mr-mockup.png",
+    "url": "https://mrmockup.com/"
+  },
+  {
+    "id": "7",
+    "title": "Anthony Boyd",
+    "description": "Free Graphic Design Resources by Anthony Boyd Graphics.",
+    "category": ["Design", "Mockups", "Textures", "3D", "Renders"],
+    "logo": "/logos/anthonyboyd.png",
+    "url": "https://www.anthonyboyd.graphics/"
+  },
+  {
+    "id": "8",
+    "title": "PSD Repo",
+    "description": "Free PSD & Adobe Xd templates designed by talented creatives who choose to share their work with the rest of the community.",
+    "category": ["Design", "Mockups", "Templates"],
+    "logo": "/logos/psd-repo.png",
+    "url": "https://psdrepo.com/"
+  },
+  {
+    "id": "9",
+    "title": "Realtime Colors",
+    "description": "Visualize your colors and fonts on a real website.",
+    "category": ["Design", "Colors", "Color picker", "Color palettes"],
+    "logo": "/logos/realtimecolors.png",
+    "url": "https://www.realtimecolors.com/?colors=ececec-121212-dd0000-505050-700000&fonts=Poppins-Poppins"
+  },
+  {
+    "id": "10",
+    "title": "Unblast",
+    "description": "Fine and free design resources made by the world's best designers. Download quality mockups, fonts, templates, and graphics.",
+    "category": [
+      "Design",
+      "Mockups",
+      "Fonts",
+      "Icons",
+      "Templates",
+      "Graphics",
+      "3D",
+      "Colors"
+    ],
+    "logo": "/logos/unblast.png",
+    "url": "https://unblast.com/"
+  },
+  {
+    "id": "11",
+    "title": "Untitled UI",
+    "description": "Need some placeholder logos for your designs? We've put together a collection of fictional logos in SVG format to use as placeholders. They're 100% free!",
+    "category": ["Design", "Logos", "Placeholder"],
+    "logo": "/logos/untitledui.png",
+    "url": "https://www.untitledui.com/logos"
+  },
+  {
+    "id": "12",
+    "title": "Shots",
+    "description": "Create Amazing Mockups",
+    "category": ["Design", "Mockups", "Launch"],
+    "logo": "/logos/shots.png",
+    "url": "https://shots.so/"
+  },
+  {
+    "id": "13",
+    "title": "Title",
+    "description": "Lorem ipsum",
+    "category": ["Design", "", "", ""],
+    "logo": "/logos/color-and-contrast.png",
+    "url": "/"
+  }
+]

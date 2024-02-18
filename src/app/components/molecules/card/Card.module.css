@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: color-mix(in srgb, var(--c-linkwater) 2%, transparent);
+
+    border: var(--b-main);
+    border-radius: var(--br-md);
+
+    padding: 2rem;
+
+    color: currentColor;
+    text-decoration: none;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.container:hover {
+    background-color: color-mix(in srgb, var(--c-linkwater) 5%, transparent);
+    border: 2px solid rgba(155, 155, 155, 0.20);
+    box-shadow: 0 0 10px rgba(4, 6, 20, 0.3), 0 0 20px rgba(9, 7, 39, 0.3), 0 0 30px rgba(9, 7, 39, 0.3);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header .link svg path {
+    fill: var(--c-cadetblue);
+}
+
+.header .link:hover svg path {
+    fill: var(--c-linkwater);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}

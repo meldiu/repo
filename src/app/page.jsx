@@ -1,7 +1,5 @@
-export default function HomePage() {
-  return (
-    <div>
-      <h2>from home page</h2>
-    </div>
-  );
+import { HomePage } from './components/templates/home-page/HomePage'
+
+export default function Home() {
+  return <HomePage />
 }
