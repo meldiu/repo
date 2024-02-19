@@ -16,21 +16,20 @@ export default function About() {
         className={styles.image}
       />
       <p className={styles.paragraph}>
-        Somos una pareja de apasionados por el diseño y el desarrollo web. Nos
-        encanta crear sitios web que sean atractivos, funcionales y accesibles.
-        También nos gusta compartir nuestros conocimientos y recursos con la
-        comunidad.
+        We are a couple passionate about design and web development. We love
+        creating websites that are attractive, functional, and accessible. We
+        also enjoy sharing our knowledge and resources with the community.
       </p>
       <p className={styles.paragraph}>
-        Por eso creamos esta página, que funciona como un repositorio de sitios
-        web de utilidad para diseñadores y desarrolladores web. Aquí podrás
-        encontrar enlaces a recursos y mucho más.
+        {`That's why we created this page, which serves as a repository of useful
+        websites for designers and web developers. Here you can find links to
+        resources and much more.`}
       </p>
       <p className={styles.paragraph}>
-        Nuestro objetivo es facilitar tu trabajo. Esperamos que encuentres lo
-        que buscas y que disfrutes de nuestra página. Si tienes alguna
-        sugerencia, comentario o pregunta, no dudes en contactarnos. Estaremos
-        encantados de escucharte.
+        Our goal is to make your work easier. We hope you find what you are
+        looking for and enjoy our page. If you have any suggestions, comments,
+        or questions, feel free to contact us. We will be happy to hear from
+        you.
       </p>
     </div>
   )
