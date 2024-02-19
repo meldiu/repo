@@ -1,7 +1,18 @@
+import Image from 'next/image'
+import styles from './not-found.module.css'
 export default function NotFound() {
   return (
-    <div style={{ padding: '2rem', minHeight: '80vh' }}>
-      <h2>#404</h2>
+    <div className={styles.container}>
+      <Image
+        src="/illustrations/flat-illustration-notfound-page.svg"
+        alt=""
+        width={800}
+        height={600}
+        className={styles.image}
+      />
+      <p className={styles.paragraph}>
+        {`We're fairly sure that page used to be here, but seems to have gone missing. We do apologise on it's behalf.`}
+      </p>
     </div>
   )
 }
