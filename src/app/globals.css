@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 :root {
     /* Font-size */
     --f-s-micro: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
@@ -30,6 +32,7 @@
     --c-linkwater: #f2f6fc;
     --c-cadetblue: #a7a9be;
     --c-tropicalblue: #bacbfa;
+    --c-electricviolet: #482FF7;
 
     /* Border */
     --b-main: 2px solid color-mix(in srgb, var(--c-cadetblue) 10%, transparent);
