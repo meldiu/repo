@@ -66,6 +66,11 @@
 
 /* html {} */
 
+::selection {
+    background-color: #24207f;
+    color: var(--c-linkwater);
+}
+
 body {
     font-family: var(--f-primary);
     color: var(--c-linkwater);
