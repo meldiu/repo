@@ -1,5 +1,10 @@
 import Image from 'next/image'
 import styles from './not-found.module.css'
+
+export const metadata = {
+  title: 'Not found',
+}
+
 export default function NotFound() {
   return (
     <div className={styles.container}>
