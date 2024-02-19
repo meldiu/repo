@@ -1,1 +1,9 @@
-export const CATEGORIES = ['All', 'Design', 'Development', 'Icons', 'Mockups']
+export const CATEGORIES = [
+  'All',
+  'Design',
+  'Development',
+  'Fonts',
+  'Icons',
+  'Images',
+  'Mockups',
+]
