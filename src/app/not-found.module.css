@@ -1,15 +1,13 @@
 .container {
-    margin: 2rem auto;
+    margin: 5rem auto;
     max-width: 90%;
     display: flex;
-    min-height: 50vh;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
 .paragraph {
-    margin-bottom: 1.5rem;
     line-height: 1.5;
     font-size: var(--f-s-base);
     color: var(--c-cadetblue);
