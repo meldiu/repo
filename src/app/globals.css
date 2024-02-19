@@ -64,15 +64,8 @@
     border-radius: 8px;
 }
 
-/* html {} */
-
-body {
-    font-family: var(--f-primary);
-    color: var(--c-linkwater);
-    font-size: var(--f-s-base);
-
+html {
     background: var(--c-darkblue);
-    background: rgb(19, 35, 71);
     /* https://cssgradient.io/ => 0 / 55 / 100 => #132347 / #060f23 / #000000 */
     background: -moz-radial-gradient(circle, rgba(19, 35, 71, 1) 0%, rgba(6, 15, 35, 1) 44%, rgba(0, 0, 0, 1) 100%);
     background: -webkit-radial-gradient(circle, rgba(19, 35, 71, 1) 0%, rgba(6, 15, 35, 1) 44%, rgba(0, 0, 0, 1) 100%);
@@ -81,4 +74,11 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
+    font-family: var(--f-primary);
+    color: var(--c-linkwater);
+    font-size: var(--f-s-base);
+    min-height: 100dvh;
 }
