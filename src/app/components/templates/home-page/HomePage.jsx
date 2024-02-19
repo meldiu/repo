@@ -28,12 +28,25 @@ export const HomePage = () => {
       setResources(DATA)
     }
   }
+
+  // const filterByQuery = query => {
+  //   if (query) {
+  //     setResources(DATA.filter(resource => resource.title.includes(query)))
+  //   } else {
+  //     setResources(DATA)
+  //   }
+  // }
+
   return (
     <div className={styles.container}>
       <SideBar categories={CATEGORIES} handleCategory={filterByCategory} />
       {/* MenuButton to mobile */}
       <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
-      <SideBarMobile isOpen={isSideBarOpen} />
+      <SideBarMobile
+        categories={CATEGORIES}
+        isOpen={isSideBarOpen}
+        handleCategory={filterByCategory}
+      />
       <div className={styles.cards}>
         {resources.map(({ id, title, description, category, logo, url }) => (
           <div key={id} className={styles['card-wrapper']}>

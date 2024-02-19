@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Fluid Type Scale Calculator",
     "description": "Generate font size variables for a fluid type scale with CSS clamp. Grab the output CSS and drop it into any design system.",
-    "category": ["Development", "Fluid type scale", "Type scale", "CSS clamp"],
+    "category": ["Development", "Fluid type scale", "Fonts", "CSS Clamp"],
     "logo": "/logos/fluid-type-scale.png",
     "url": "https://www.fluid-type-scale.com/"
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "title": "Squosh",
     "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
-    "category": ["Development", "Image optimizer"],
+    "category": ["Development", "Images", "Image optimizer"],
     "logo": "/logos/squoosh.png",
     "url": "https://squoosh.app/"
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "title": "svgl",
     "description": "A beautiful library with SVG logos.",
-    "category": ["Development", "SVG", "Icons"],
+    "category": ["Development", "Design", "SVG", "Icons"],
     "logo": "/logos/svgl.png",
     "url": "https://svgl.app/"
   },
@@ -68,7 +68,13 @@
     "id": "9",
     "title": "Realtime Colors",
     "description": "Visualize your colors and fonts on a real website.",
-    "category": ["Design", "Colors", "Color picker", "Color palettes"],
+    "category": [
+      "Development",
+      "Color palettes",
+      "Design",
+      "Color picker",
+      "Colors"
+    ],
     "logo": "/logos/realtimecolors.png",
     "url": "https://www.realtimecolors.com/?colors=ececec-121212-dd0000-505050-700000&fonts=Poppins-Poppins"
   },
@@ -100,13 +106,29 @@
   {
     "id": "12",
     "title": "Shots",
-    "description": "Create Amazing Mockups",
+    "description": "Create Amazing Mockups.",
     "category": ["Design", "Mockups", "Launch"],
     "logo": "/logos/shots.png",
     "url": "https://shots.so/"
   },
   {
     "id": "13",
+    "title": "Unsplash",
+    "description": "Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.",
+    "category": ["Design", "Images"],
+    "logo": "/logos/unsplash.png",
+    "url": "https://unsplash.com/"
+  },
+  {
+    "id": "14",
+    "title": "Google Fonts",
+    "description": "Making the web more beautiful, fast, and open through great typography",
+    "category": ["Design", "Development", "Fonts"],
+    "logo": "/logos/google-fonts.png",
+    "url": "https://fonts.google.com/"
+  },
+  {
+    "id": "15",
     "title": "Title",
     "description": "Lorem ipsum",
     "category": ["Design", "", "", ""],
