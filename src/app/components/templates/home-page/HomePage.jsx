@@ -48,6 +48,7 @@ export const HomePage = () => {
         categories={CATEGORIES}
         isOpen={isSideBarOpen}
         handleCategory={filterByCategory}
+        handleShowSideBar={handleShowSideBar}
       />
       {/* MenuButton to mobile */}
       <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
