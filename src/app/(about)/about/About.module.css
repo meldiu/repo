@@ -20,6 +20,14 @@
     color: var(--c-cadetblue);
 }
 
+.link {
+    color: inherit;
+}
+
+.link:hover {
+    color: var(--c-linkwater);
+}
+
 @media screen and (min-width: 720px) {
     .container {
         max-width: 50%;

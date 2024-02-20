@@ -28,8 +28,14 @@ export default function About() {
       <p className={styles.paragraph}>
         Our goal is to make your work easier. We hope you find what you are
         looking for and enjoy our page. If you have any suggestions, comments,
-        or questions, feel free to contact us. We will be happy to hear from
-        you.
+        or questions, feel free to{' '}
+        <a
+          className={styles.link}
+          href="mailto:meldiu.me@gmail.com?Subject=Hello%20there!"
+        >
+          contact us.
+        </a>{' '}
+        We will be happy to hear from you.
       </p>
     </div>
   )

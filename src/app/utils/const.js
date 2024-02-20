@@ -6,4 +6,5 @@ export const CATEGORIES = [
   'Icons',
   'Images',
   'Mockups',
+  'Inspiration',
 ]

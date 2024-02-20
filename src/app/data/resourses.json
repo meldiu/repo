@@ -134,5 +134,13 @@
     "category": ["Development", "Design", "SVG", "Icons"],
     "logo": "/logos/simpleicons.png",
     "url": "https://simpleicons.org/"
+  },
+  {
+    "id": "16",
+    "title": "Awwwards",
+    "description": "Awwwards are the Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world.",
+    "category": ["Development", "Design", "Inspiration"],
+    "logo": "/logos/awwwards.png",
+    "url": "https://www.awwwards.com/"
   }
 ]
