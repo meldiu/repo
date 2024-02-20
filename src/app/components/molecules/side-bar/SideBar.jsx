@@ -14,6 +14,7 @@ export const SideBar = ({
   }
   return (
     <aside className={`${styles.container} ${isOpen ? styles.active : ''}`}>
+      <div className={styles.blob} />
       <nav className={`${styles.nav}`}>
         <ul className={styles.list}>
           {categories.map(category => (
