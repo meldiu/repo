@@ -17,7 +17,6 @@ export const Footer = () => {
           <div className={styles.links}>
             <Link href="/">Home</Link>
             <Link href="/about">About us</Link>
-            <Link href="/privacy-policy">Privacy policy</Link>
           </div>
         </div>
       </div>
