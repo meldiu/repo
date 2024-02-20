@@ -13,4 +13,6 @@
 
     text-wrap: nowrap;
     border-radius: var(--br-sm);
+
+    cursor: default;
 }
