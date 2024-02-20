@@ -8,7 +8,6 @@ import { Card } from '../../molecules/card/Card'
 import { CATEGORIES } from '../../../utils/const'
 import { SideBar } from '../../molecules/side-bar/SideBar'
 import { MenuButton } from '../../atoms/MenuButton/MenuButton'
-import { SideBarMobile } from '../../molecules/side-bar-mobile/SideBarMobile'
 
 export const HomePage = () => {
   const [resources, setResources] = useState(DATA)
@@ -39,14 +38,13 @@ export const HomePage = () => {
 
   return (
     <div className={styles.container}>
-      <SideBar categories={CATEGORIES} handleCategory={filterByCategory} />
-      {/* MenuButton to mobile */}
-      <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
-      <SideBarMobile
+      <SideBar
         categories={CATEGORIES}
         isOpen={isSideBarOpen}
         handleCategory={filterByCategory}
       />
+      {/* MenuButton to mobile */}
+      <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
       <div className={styles.cards}>
         {resources.map(({ id, title, description, category, logo, url }) => (
           <div key={id} className={styles['card-wrapper']}>
