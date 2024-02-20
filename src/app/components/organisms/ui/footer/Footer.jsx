@@ -11,7 +11,7 @@ export const Footer = () => {
             <span className={styles.title}>repo</span>
             <span className={styles.description}>
               Compilation and organization of a wide variety of tools and
-              resources for web developers and designers
+              resources for web developers and designers.
             </span>
           </div>
           <div className={styles.links}>
