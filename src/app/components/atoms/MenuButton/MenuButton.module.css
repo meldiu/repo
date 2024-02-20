@@ -1,7 +1,7 @@
 .button {
     width: 42px;
     height: 42px;
-    background-color: var(--c-linkwater);
+    background-color: var(--c-electricviolet);
     border: none;
     border-radius: 50%;
 
@@ -15,6 +15,10 @@
     place-content: center;
 }
 
+.button.active {
+    background-color: var(--c-linkwater);
+}
+
 .ham {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -26,6 +30,10 @@
 }
 
 .ham path {
+    stroke: var(--c-linkwater);
+}
+
+.ham.active path {
     stroke: var(--c-electricviolet);
 }
 
