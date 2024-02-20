@@ -1,7 +1,12 @@
 import propTypes from 'prop-types'
 import styles from './SideBar.module.css'
 import { useState } from 'react'
-export const SideBar = ({ categories, isOpen, handleCategory }) => {
+export const SideBar = ({
+  categories,
+  isOpen,
+  handleCategory,
+  handleShowSideBar,
+}) => {
   const [categoryActive, setCategoryActive] = useState('All')
   const getCategory = category => {
     setCategoryActive(category)
@@ -18,7 +23,10 @@ export const SideBar = ({ categories, isOpen, handleCategory }) => {
                 className={`${styles.button} ${
                   category === categoryActive ? styles.active : ''
                 }`}
-                onClick={() => getCategory(category)}
+                onClick={() => {
+                  getCategory(category)
+                  handleShowSideBar()
+                }}
               >
                 {category}
               </button>
@@ -33,4 +41,5 @@ SideBar.propTypes = {
   categories: propTypes.array,
   isOpen: propTypes.bool,
   handleCategory: propTypes.func,
+  handleShowSideBar: propTypes.func,
 }
