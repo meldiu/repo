@@ -11,13 +11,12 @@ export const Footer = () => {
             <span className={styles.title}>repo</span>
             <span className={styles.description}>
               Compilation and organization of a wide variety of tools and
-              resources for web developers and designers
+              resources for web developers and designers.
             </span>
           </div>
           <div className={styles.links}>
             <Link href="/">Home</Link>
             <Link href="/about">About us</Link>
-            <Link href="/privacy-policy">Privacy policy</Link>
           </div>
         </div>
       </div>

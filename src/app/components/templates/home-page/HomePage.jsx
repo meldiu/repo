@@ -2,30 +2,35 @@
 import styles from './HomePage.module.css'
 import { useState } from 'react'
 
-import DATA from '../../../data/recourses.json'
+import DATA from '../../../data/resourses.json'
 
 import { Card } from '../../molecules/card/Card'
 import { CATEGORIES } from '../../../utils/const'
 import { SideBar } from '../../molecules/side-bar/SideBar'
 import { MenuButton } from '../../atoms/MenuButton/MenuButton'
-import { SideBarMobile } from '../../molecules/side-bar-mobile/SideBarMobile'
+
+const compareTitles = (a, b) => {
+  return a.title.localeCompare(b.title)
+}
+
+const sortedData = DATA.sort(compareTitles)
 
 export const HomePage = () => {
-  const [resources, setResources] = useState(DATA)
+  const [resources, setResources] = useState(sortedData)
   const [isSideBarOpen, setIsSideBarOpen] = useState()
   const handleShowSideBar = () => setIsSideBarOpen(!isSideBarOpen)
 
   const filterByCategory = category => {
     if (category) {
       if (category === 'All') {
-        setResources(DATA)
+        setResources(sortedData)
         return
       }
       setResources(
-        DATA.filter(resource => resource.category.includes(category))
+        sortedData.filter(resource => resource.category.includes(category))
       )
     } else {
-      setResources(DATA)
+      setResources(sortedData)
     }
   }
 
@@ -39,14 +44,13 @@ export const HomePage = () => {
 
   return (
     <div className={styles.container}>
-      <SideBar categories={CATEGORIES} handleCategory={filterByCategory} />
-      {/* MenuButton to mobile */}
-      <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
-      <SideBarMobile
+      <SideBar
         categories={CATEGORIES}
         isOpen={isSideBarOpen}
         handleCategory={filterByCategory}
       />
+      {/* MenuButton to mobile */}
+      <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
       <div className={styles.cards}>
         {resources.map(({ id, title, description, category, logo, url }) => (
           <div key={id} className={styles['card-wrapper']}>

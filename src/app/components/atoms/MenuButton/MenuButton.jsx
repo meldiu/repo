@@ -2,7 +2,10 @@ import propTypes from 'prop-types'
 import styles from './MenuButton.module.css'
 export const MenuButton = ({ isOpen, onClick }) => {
   return (
-    <button onClick={onClick} className={`${styles.button}`}>
+    <button
+      onClick={onClick}
+      className={`${styles.button} ${isOpen ? styles.active : ''}`}
+    >
       <svg
         className={`${styles.ham} ${styles.ham6} ${
           isOpen ? styles.active : ''

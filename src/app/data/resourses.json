@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "title": "Squosh",
+    "title": "Squoosh",
     "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
     "category": ["Development", "Images", "Image optimizer"],
     "logo": "/logos/squoosh.png",
@@ -122,17 +122,17 @@
   {
     "id": "14",
     "title": "Google Fonts",
-    "description": "Making the web more beautiful, fast, and open through great typography",
+    "description": "Making the web more beautiful, fast, and open through great typography.",
     "category": ["Design", "Development", "Fonts"],
     "logo": "/logos/google-fonts.png",
     "url": "https://fonts.google.com/"
   },
   {
     "id": "15",
-    "title": "Title",
-    "description": "Lorem ipsum",
-    "category": ["Design", "", "", ""],
-    "logo": "/logos/color-and-contrast.png",
-    "url": "/"
+    "title": "Simple Icons",
+    "description": "3035 Free SVG icons for popular brands.",
+    "category": ["Development", "Design", "SVG", "Icons"],
+    "logo": "/logos/simpleicons.png",
+    "url": "https://simpleicons.org/"
   }
 ]
