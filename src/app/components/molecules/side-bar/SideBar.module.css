@@ -71,12 +71,6 @@
         padding: 1rem 2rem;
     }
 
-    .list {
-        display: flex;
-        flex-direction: column;
-    }
-
-
     .button {
         font-size: var(--f-s-sm);
     }
