@@ -2,7 +2,7 @@
 import styles from './HomePage.module.css'
 import { useState } from 'react'
 
-import DATA from '../../../data/recourses.json'
+import DATA from '../../../data/resourses.json'
 
 import { Card } from '../../molecules/card/Card'
 import { CATEGORIES } from '../../../utils/const'
