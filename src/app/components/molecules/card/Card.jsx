@@ -1,11 +1,11 @@
 import propTypes from 'prop-types'
 import styles from './Card.module.css'
 
-import { Logo } from '../../atoms/Logo/Logo'
-import { Title } from '../../atoms/Title/Title'
-import { Description } from '../../atoms/Description/Description'
-import { Tag } from '../../atoms/Tag/Tag'
-import { ExternalLink } from '../../atoms/Icons/ExternalLink/ExternalLink'
+import { Logo } from '@/components/atoms/logo/Logo'
+import { Title } from '@/components/atoms/title/Title'
+import { Description } from '@/components/atoms/description/Description'
+import { Tag } from '@/components/atoms/tag/Tag'
+import { ExternalLink } from '@/components/atoms/icons/external-link/ExternalLink'
 
 export const Card = ({ title, description, category, logo, url }) => {
   return (

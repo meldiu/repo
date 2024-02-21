@@ -3,8 +3,8 @@ import propTypes from 'prop-types'
 
 import '../../node_modules/minireset.css/minireset.min.css'
 import './globals.css'
-import { Header } from './components/organisms/ui/header/Header'
-import { Footer } from './components/organisms/ui/footer/Footer'
+import { Header } from '@/components/organisms/ui/header/Header'
+import { Footer } from '@/components/organisms/ui/footer/Footer'
 
 // const inter = Inter({ subsets: ['latin'] })
 

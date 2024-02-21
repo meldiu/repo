@@ -16,14 +16,10 @@ export default function About() {
         className={styles.image}
       />
       <p className={styles.paragraph}>
-        We are a couple passionate about design and web development. We love
-        creating websites that are attractive, functional, and accessible. We
-        also enjoy sharing our knowledge and resources with the community.
+        {`We are a couple passionate about design and web development. We love creating websites that are attractive, functional, and accessible. We also enjoy sharing our knowledge and resources with the community.`}
       </p>
       <p className={styles.paragraph}>
-        {`That's why we created this page, which serves as a repository of useful
-        websites for designers and web developers. Here you can find links to
-        resources and much more.`}
+        {`That's why we created this page, which serves as a repository of useful websites for designers and web developers. Here you can find links to resources and much more.`}
       </p>
       <p className={styles.paragraph}>
         Our goal is to make your work easier. We hope you find what you are

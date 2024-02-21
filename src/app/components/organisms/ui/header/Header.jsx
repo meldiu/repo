@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import { SearchBar } from '../../../molecules/search-bar/SearchBar'
+import { SearchBar } from '@/components/molecules/search-bar/SearchBar'
 export const Header = () => {
   return (
     <header className={styles.container}>
