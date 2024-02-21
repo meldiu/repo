@@ -44,7 +44,6 @@
     .container {
         position: fixed;
         top: 100vh;
-
         background-color: transparent;
 
         z-index: 10;
@@ -69,14 +68,12 @@
     }
 
     .container .blob {
-        clip-path: circle(0% at 90% 95%);
-
         display: block;
-
         position: absolute;
         inset: 0;
         background-color: var(--c-electricviolet);
-
+        
+        clip-path: circle(0% at 90% 95%);
         transition:
             clip-path 0.8s ease-in-out;
     }

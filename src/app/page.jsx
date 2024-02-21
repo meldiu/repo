@@ -1,4 +1,4 @@
-import { HomePage } from './components/templates/home-page/HomePage'
+import { HomePage } from '@/components/templates/home-page/HomePage'
 
 export const metadata = {
   title: 'Repo',

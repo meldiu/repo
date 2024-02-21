@@ -2,13 +2,14 @@
 import styles from './HomePage.module.css'
 import { useState } from 'react'
 
-import DATA from '../../../data/resourses.json'
+import DATA from '@/data/resourses.json'
+import { CATEGORIES } from '@/utils/const'
 
-import { Card } from '../../molecules/card/Card'
-import { CATEGORIES } from '../../../utils/const'
-import { SideBar } from '../../molecules/side-bar/SideBar'
-import { MenuButton } from '../../atoms/MenuButton/MenuButton'
+import { Card } from '@/components/molecules/card/Card'
+import { SideBar } from '@/components/molecules/side-bar/SideBar'
+import { MenuButton } from '@/components/atoms/menu-button/MenuButton'
 
+// TODO: move this to utils => Refactor please
 const compareTitles = (a, b) => {
   return a.title.localeCompare(b.title)
 }
@@ -33,14 +34,6 @@ export const HomePage = () => {
       setResources(sortedData)
     }
   }
-
-  // const filterByQuery = query => {
-  //   if (query) {
-  //     setResources(DATA.filter(resource => resource.title.includes(query)))
-  //   } else {
-  //     setResources(DATA)
-  //   }
-  // }
 
   return (
     <div className={styles.container}>
