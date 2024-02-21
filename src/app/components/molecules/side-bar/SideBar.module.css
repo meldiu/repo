@@ -60,6 +60,9 @@
     .container .button {
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
+        -webkit-transition-delay: 0.4s;
+        -moz-transition-delay: 0.4s;
+        -o-transition-delay: 0.4s;
         transition-delay: 0.4s;
     }
 
@@ -72,7 +75,7 @@
         position: absolute;
         inset: 0;
         background-color: var(--c-electricviolet);
-        
+
         clip-path: circle(0% at 90% 95%);
         transition:
             clip-path 0.8s ease-in-out;
