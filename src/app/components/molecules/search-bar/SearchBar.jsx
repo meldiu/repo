@@ -7,7 +7,11 @@ export const SearchBar = () => {
         className={styles.input}
         placeholder="Search by name or category"
       />
-      <button className={styles.button}>
+      <button
+        type="button"
+        aria-label="Search by name or category"
+        className={styles.button}
+      >
         <svg
           width="32"
           height="32"
