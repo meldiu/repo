@@ -3,6 +3,7 @@ import styles from './MenuButton.module.css'
 export const MenuButton = ({ isOpen, onClick }) => {
   return (
     <button
+      aria-label="Open menu"
       onClick={onClick}
       className={`${styles.button} ${isOpen ? styles.active : ''}`}
     >
