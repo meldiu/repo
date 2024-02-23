@@ -1,17 +1,20 @@
+import Image from 'next/image'
 import propTypes from 'prop-types'
-export const Logo = ({ src, title }) => {
+export const Logo = ({ isLazy, src, title }) => {
   return (
-    <img
-      style={{
-        width: '40px',
-        height: '40px',
-      }}
+    <Image
       src={src}
       alt={`${title} logo`}
+      loading={isLazy ? 'lazy' : 'eager'}
+      priority={isLazy}
+      quality={100}
+      width={40}
+      height={40}
     />
   )
 }
 Logo.propTypes = {
+  isLazy: propTypes.bool,
   src: propTypes.string,
   title: propTypes.string,
 }

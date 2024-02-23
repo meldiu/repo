@@ -46,17 +46,20 @@ export const HomePage = () => {
       {/* MenuButton to mobile */}
       <MenuButton isOpen={isSideBarOpen} onClick={handleShowSideBar} />
       <div className={styles.cards}>
-        {resources.map(({ id, title, description, category, logo, url }) => (
-          <div key={id} className={styles['card-wrapper']}>
-            <Card
-              title={title}
-              description={description}
-              category={category}
-              logo={logo}
-              url={url}
-            />
-          </div>
-        ))}
+        {resources.map(
+          ({ id, title, description, category, logo, url }, index) => (
+            <div key={id} className={styles['card-wrapper']}>
+              <Card
+                index={index}
+                title={title}
+                description={description}
+                category={category}
+                logo={logo}
+                url={url}
+              />
+            </div>
+          )
+        )}
       </div>
     </div>
   )

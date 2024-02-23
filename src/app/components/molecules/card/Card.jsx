@@ -7,12 +7,12 @@ import { Description } from '@/components/atoms/description/Description'
 import { Tag } from '@/components/atoms/tag/Tag'
 import { ExternalLink } from '@/components/atoms/icons/external-link/ExternalLink'
 
-export const Card = ({ title, description, category, logo, url }) => {
+export const Card = ({ index, title, description, category, logo, url }) => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <div>
-          <Logo src={logo} title={title} />
+          <Logo src={logo} title={title} isLazy={index > 15} />
           <Title>{title}</Title>
         </div>
         <a
@@ -40,6 +40,7 @@ export const Card = ({ title, description, category, logo, url }) => {
 }
 
 Card.propTypes = {
+  index: propTypes.number,
   title: propTypes.string,
   description: propTypes.string,
   category: propTypes.array,
