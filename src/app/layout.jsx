@@ -30,6 +30,30 @@ export const metadata = {
     'UI/UX',
     'Web',
   ],
+  openGraph: {
+    title:
+      'Repo | Compilation of a wide variety of tools and resources for web developers and designers',
+    description:
+      'Compilation and organization of a wide variety of tools and resources for web developers and designers',
+    url: 'https://repo-meldiu.vercel.app/',
+    siteName: 'Repo',
+    images: [
+      {
+        url: '/images-og/og-repo.webp',
+        width: 800,
+        height: 600,
+        alt: 'Compilation of web development and design tools and resources.',
+      },
+      {
+        url: '/images-og/og-repo.webp',
+        width: 1800,
+        height: 1600,
+        alt: 'Compilation of web development and design tools and resources.',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }) {
