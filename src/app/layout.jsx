@@ -32,9 +32,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      'Repo | Compilation of web development and design tools and resources',
+      'Repo',
     description:
-      'Compilation and organization of a wide variety of tools and resources for web developers and designers',
+      'Compilation and organization of a wide variety of tools and resources for web developers and designers.',
     url: 'https://repo-meldiu.vercel.app/',
     siteName: 'Repo',
     images: [
