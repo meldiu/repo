@@ -1,14 +1,27 @@
+'use client'
 import styles from './SearchBar.module.css'
+import { useResourcesStore } from '@/stores/resources/resources.store.js'
 export const SearchBar = () => {
+  const search = useResourcesStore(state => state.search)
+  const setSearch = useResourcesStore(state => state.setSearch)
+  const filterBySearch = useResourcesStore(state => state.filterBySearch)
+
+  const handleSubmit = e => {
+    e.preventDefault()
+    filterBySearch(search)
+  }
+
   return (
-    <form action="" className={styles.container}>
+    <form action="" onSubmit={handleSubmit} className={styles.container}>
       <input
         type="text"
         className={styles.input}
         placeholder="Search by name or category"
+        value={search}
+        onChange={e => setSearch(e.target.value)}
       />
       <button
-        type="button"
+        type="submit"
         aria-label="Search by name or category"
         className={styles.button}
       >
