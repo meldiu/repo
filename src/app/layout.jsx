@@ -39,13 +39,13 @@ export const metadata = {
     siteName: 'Repo',
     images: [
       {
-        url: '/images-og/og-repo.webp',
+        url: 'https://i.ibb.co/g37bq8f/og-repo.webp',
         width: 800,
         height: 600,
         alt: 'Compilation of web development and design tools and resources.',
       },
       {
-        url: '/images-og/og-repo.webp',
+        url: 'https://i.ibb.co/g37bq8f/og-repo.webp',
         width: 1800,
         height: 1600,
         alt: 'Compilation of web development and design tools and resources.',
