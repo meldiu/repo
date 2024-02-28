@@ -19,7 +19,7 @@ export const metadata = {
   ],
   creator: 'Meldiu',
   description:
-    'Compilation and organization of a wide variety of tools and resources for web developers and designers',
+    'Compilation and organization of a wide variety of tools and resources for web developers and designers.',
   keywords: [
     'Repository',
     'Development',
