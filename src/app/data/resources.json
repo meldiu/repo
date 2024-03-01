@@ -142,5 +142,13 @@
     "category": ["Development", "Design", "Inspiration"],
     "logo": "/logos/awwwards.png",
     "url": "https://www.awwwards.com/"
+  },
+  {
+    "id": "17",
+    "title": "Freepik",
+    "description": "Millions of free graphic resources. ✓ Photos ✓ AI images ✓ Vectors ✓ Templates ✓ Videos. Find out about our real-time AI art generator.",
+    "category": ["Design", "Vectors", "Images", "Icons", "Photos"],
+    "logo": "/logos/freepik.webp",
+    "url": "https://www.freepik.com/"
   }
 ]
