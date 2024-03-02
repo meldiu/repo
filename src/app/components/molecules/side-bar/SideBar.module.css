@@ -78,7 +78,7 @@
 
         clip-path: circle(0% at 90% 95%);
         transition:
-            clip-path 0.8s ease-in-out;
+            clip-path 0.6s ease-in-out;
     }
 
     .container.active .blob {
