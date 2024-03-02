@@ -148,7 +148,15 @@
     "title": "Freepik",
     "description": "Millions of free graphic resources. ✓ Photos ✓ AI images ✓ Vectors ✓ Templates ✓ Videos. Find out about our real-time AI art generator.",
     "category": ["Design", "Vectors", "Images", "Icons", "Photos"],
-    "logo": "/logos/freepik.webp",
+    "logo": "/logos/freepik.png",
     "url": "https://www.freepik.com/"
+  },
+  {
+    "id": "18",
+    "title": "roadmap.sh",
+    "description": "Community driven roadmaps, articles and guides for developers to grow in their career.",
+    "category": ["Development", "Design", "Roadmaps"],
+    "logo": "/logos/roadmap.sh.png",
+    "url": "https://roadmap.sh/"
   }
 ]
