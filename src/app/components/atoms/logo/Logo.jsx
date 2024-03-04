@@ -6,7 +6,7 @@ export const Logo = ({ isLazy, src, title }) => {
       src={src}
       alt={`${title} logo`}
       loading={isLazy ? 'lazy' : 'eager'}
-      priority={isLazy}
+      priority={!isLazy}
       quality={100}
       width={40}
       height={40}
