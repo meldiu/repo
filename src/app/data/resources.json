@@ -158,5 +158,21 @@
     "category": ["Development", "Design", "Roadmaps"],
     "logo": "/logos/roadmap.sh.png",
     "url": "https://roadmap.sh/"
+  },
+  {
+    "id": "19",
+    "title": "Color Designer",
+    "description": "Welcome to the most comprehensive color tools platform. Unleash your creativity using color wheel, devise harmonious palettes with the color scheme builder, and create depth with the gradient options. It's a designer's playground. Enjoy exploring!",
+    "category": ["Design", "Development", "Color picker"],
+    "logo": "/logos/color-designer.png",
+    "url": "https://colordesigner.io/"
+  },
+  {
+    "id": "20",
+    "title": "uicolors",
+    "description": "Generate, edit, save and share Tailwind CSS color shades based on a given hexcode or HSL color.",
+    "category": ["Development", "Design", "Color picker", "Colors"],
+    "logo": "/logos/uicolors.png",
+    "url": "https://uicolors.app/create"
   }
 ]
